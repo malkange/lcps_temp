@@ -1,0 +1,110 @@
+
+[480 360  32]
+Using MSE for heatmap regression, weight: 100
+Using L1 for offset regression, weight: 10
+[PANOPTIC EVAL] IGNORE:  [ 0 20]
+[PANOPTIC EVAL] INCLUDE:  [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19]
+Epoch 0 => Start Evaluation...
+epoch: 0   lr: 0.00400
+
+
+
+
+  1%|▍                                                                            | 3/509 [00:42<2:00:19, 14.27s/it]
+****************************************
+Epoch 0 => Start Training...
+Validation per class PQ, SQ, RQ and IoU:
+                 car :   0.00%    0.00%    0.00%    0.00%
+             bicycle :   0.00%    0.00%    0.00%    0.01%
+          motorcycle :   0.00%    0.00%    0.00%    0.00%
+               truck :   0.00%    0.00%    0.00%    0.00%
+                 bus :   0.00%    0.00%    0.00%    0.00%
+              person :   0.00%    0.00%    0.00%    0.00%
+           bicyclist :   0.00%    0.00%    0.00%    0.00%
+        motorcyclist :   0.00%    0.00%    0.00%    0.00%
+                road :   0.00%    0.00%    0.00%    0.00%
+             parking :   0.00%    0.00%    0.00%    0.00%
+            sidewalk :   0.00%    0.00%    0.00%    0.00%
+        other-ground :   0.00%    0.00%    0.00%    0.00%
+            building :   0.00%    0.00%    0.00%    0.00%
+               fence :   0.00%    0.00%    0.00%    0.00%
+          vegetation :   0.00%    0.00%    0.00%    0.00%
+               trunk :   0.00%    0.00%    0.00%    0.00%
+             terrain :   0.00%    0.00%    0.00%    0.00%
+                pole :   0.00%    0.00%    0.00%    0.00%
+        traffic-sign :   0.00%    0.00%    0.00%    0.00%
+PQ 0.0  PQ_dagger  0.0  SQ 0.0  RQ 0.0  |  PQ_th 0.0  SQ_th 0.0  RQ_th 0.0  |  PQ_st 0.0  SQ_st 0.0  RQ_st 0.0  |  mIoU 0.0
+Current val PQ is 0.0 while the best val PQ is 0.0
+Current val miou is 0.0
+Validation per class iou:
+car : 0.00%
+bicycle : 0.01%
+motorcycle : nan%
+truck : nan%
+bus : 0.00%
+person : 0.00%
+bicyclist : 0.00%
+motorcyclist : nan%
+road : 0.00%
+parking : 0.00%
+sidewalk : 0.00%
+other-ground : 0.00%
+building : 0.00%
+fence : 0.00%
+vegetation : 0.00%
+trunk : 0.00%
+terrain : 0.00%
+pole : 0.00%
+traffic-sign : 0.00%
+Current val miou is 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

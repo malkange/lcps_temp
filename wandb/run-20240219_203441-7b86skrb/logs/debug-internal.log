@@ -1,0 +1,229 @@
+2024-02-19 20:34:41,027 INFO    StreamThr :63409 [internal.py:wandb_internal():86] W&B internal server running at pid: 63409, started at: 2024-02-19 20:34:41.026376
+2024-02-19 20:34:41,028 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: status
+2024-02-19 20:34:41,031 INFO    WriterThread:63409 [datastore.py:open_for_write():87] open: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_203441-7b86skrb/run-7b86skrb.wandb
+2024-02-19 20:34:41,032 DEBUG   SenderThread:63409 [sender.py:send():382] send: header
+2024-02-19 20:34:41,032 DEBUG   SenderThread:63409 [sender.py:send():382] send: run
+2024-02-19 20:34:41,585 INFO    SenderThread:63409 [dir_watcher.py:__init__():211] watching files in: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_203441-7b86skrb/files
+2024-02-19 20:34:41,585 INFO    SenderThread:63409 [sender.py:_start_run_threads():1136] run started: 7b86skrb with start time 1708342481.025295
+2024-02-19 20:34:41,600 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: check_version
+2024-02-19 20:34:41,601 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: check_version
+2024-02-19 20:34:41,664 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: run_start
+2024-02-19 20:34:41,703 DEBUG   HandlerThread:63409 [system_info.py:__init__():27] System info init
+2024-02-19 20:34:41,703 DEBUG   HandlerThread:63409 [system_info.py:__init__():42] System info init done
+2024-02-19 20:34:41,703 INFO    HandlerThread:63409 [system_monitor.py:start():194] Starting system monitor
+2024-02-19 20:34:41,704 INFO    SystemMonitor:63409 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-19 20:34:41,705 INFO    HandlerThread:63409 [system_monitor.py:probe():214] Collecting system info
+2024-02-19 20:34:41,706 INFO    SystemMonitor:63409 [interfaces.py:start():190] Started cpu monitoring
+2024-02-19 20:34:41,707 INFO    SystemMonitor:63409 [interfaces.py:start():190] Started disk monitoring
+2024-02-19 20:34:41,708 INFO    SystemMonitor:63409 [interfaces.py:start():190] Started gpu monitoring
+2024-02-19 20:34:41,709 INFO    SystemMonitor:63409 [interfaces.py:start():190] Started memory monitoring
+2024-02-19 20:34:41,711 INFO    SystemMonitor:63409 [interfaces.py:start():190] Started network monitoring
+2024-02-19 20:34:41,755 DEBUG   HandlerThread:63409 [system_info.py:probe():151] Probing system
+2024-02-19 20:34:41,761 DEBUG   HandlerThread:63409 [gitlib.py:_init_repo():56] git repository is invalid
+2024-02-19 20:34:41,761 DEBUG   HandlerThread:63409 [system_info.py:probe():199] Probing system done
+2024-02-19 20:34:41,761 DEBUG   HandlerThread:63409 [system_monitor.py:probe():223] {'os': 'Linux-4.18.0-348.23.1.el8_5.x86_64-x86_64-with-glibc2.17', 'python': '3.8.16', 'heartbeatAt': '2024-02-19T11:34:41.755444', 'startedAt': '2024-02-19T11:34:41.018264', 'docker': None, 'cuda': None, 'args': ('-c', 'configs/pa_po_kitti_trainval.yaml', '-l', 'logs', '-n', 'kitti_lidar_distributed'), 'state': 'running', 'program': 'train_distributed.py', 'codePathLocal': 'train_distributed.py', 'codePath': 'train_distributed.py', 'host': 'visionai-postech2', 'username': 'poscoict', 'executable': '/opt/conda/bin/python', 'cpu_count': 48, 'cpu_count_logical': 96, 'cpu_freq': {'current': 3453.243114583333, 'min': 4000.0, 'max': 4000.0}, 'cpu_freq_per_core': [{'current': 3441.111, 'min': 4000.0, 'max': 4000.0}, {'current': 3380.891, 'min': 4000.0, 'max': 4000.0}, {'current': 3441.109, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3441.108, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3441.107, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3441.107, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3441.106, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3441.107, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3441.106, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3437.166, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3441.108, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3441.105, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3441.108, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3441.104, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3441.1, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3421.733, 'min': 4000.0, 'max': 4000.0}, {'current': 3404.622, 'min': 4000.0, 'max': 4000.0}, {'current': 3441.069, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3441.068, 'min': 4000.0, 'max': 4000.0}, {'current': 3404.599, 'min': 4000.0, 'max': 4000.0}, {'current': 3441.068, 'min': 4000.0, 'max': 4000.0}, {'current': 3403.859, 'min': 4000.0, 'max': 4000.0}, {'current': 3441.06, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3441.063, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3441.064, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3441.064, 'min': 4000.0, 'max': 4000.0}, {'current': 3404.606, 'min': 4000.0, 'max': 4000.0}, {'current': 3441.063, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3441.064, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3430.988, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3431.222, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3431.453, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3431.684, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3431.922, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3432.167, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3432.402, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3432.664, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3432.984, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3433.231, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3433.493, 'min': 4000.0, 'max': 4000.0}, {'current': 3400.003, 'min': 4000.0, 'max': 4000.0}, {'current': 3433.773, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3434.032, 'min': 4000.0, 'max': 4000.0}, {'current': 3400.001, 'min': 4000.0, 'max': 4000.0}, {'current': 3434.318, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3434.592, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3434.861, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3435.154, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3435.441, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3435.72, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3436.071, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3436.38, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3436.682, 'min': 4000.0, 'max': 4000.0}, {'current': 3400.001, 'min': 4000.0, 'max': 4000.0}, {'current': 3437.002, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}, {'current': 3437.325, 'min': 4000.0, 'max': 4000.0}, {'current': 4000.0, 'min': 4000.0, 'max': 4000.0}], 'disk': {'/': {'total': 2699.5527381896973, 'used': 701.5398254394531}}, 'gpu': 'NVIDIA A100 80GB PCIe', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA A100 80GB PCIe', 'memory_total': 85899345920}, {'name': 'NVIDIA A100 80GB PCIe', 'memory_total': 85899345920}], 'memory': {'total': 1006.8523902893066}}
+2024-02-19 20:34:41,762 INFO    HandlerThread:63409 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-19 20:34:41,762 INFO    HandlerThread:63409 [system_monitor.py:probe():227] Publishing system info
+2024-02-19 20:34:41,762 DEBUG   HandlerThread:63409 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-02-19 20:34:42,587 INFO    Thread-12 :63409 [dir_watcher.py:_on_file_created():271] file/dir created: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_203441-7b86skrb/files/conda-environment.yaml
+2024-02-19 20:34:46,904 DEBUG   HandlerThread:63409 [system_info.py:_save_conda():220] Saving conda packages done
+2024-02-19 20:34:46,906 INFO    HandlerThread:63409 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-19 20:34:46,912 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:34:46,912 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:34:46,913 DEBUG   SenderThread:63409 [sender.py:send():382] send: files
+2024-02-19 20:34:46,913 INFO    SenderThread:63409 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-02-19 20:34:46,924 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-19 20:34:46,924 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: python_packages
+2024-02-19 20:34:46,925 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 20:34:46,926 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 20:34:46,932 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 20:34:47,243 DEBUG   SenderThread:63409 [sender.py:send():382] send: telemetry
+2024-02-19 20:34:47,587 INFO    Thread-12 :63409 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_203441-7b86skrb/files/conda-environment.yaml
+2024-02-19 20:34:47,587 INFO    Thread-12 :63409 [dir_watcher.py:_on_file_created():271] file/dir created: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_203441-7b86skrb/files/requirements.txt
+2024-02-19 20:34:47,588 INFO    Thread-12 :63409 [dir_watcher.py:_on_file_created():271] file/dir created: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_203441-7b86skrb/files/output.log
+2024-02-19 20:34:47,588 INFO    Thread-12 :63409 [dir_watcher.py:_on_file_created():271] file/dir created: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_203441-7b86skrb/files/wandb-metadata.json
+2024-02-19 20:34:47,703 INFO    wandb-upload_0:63409 [upload_job.py:push():131] Uploaded file /tmp/tmpl246wwfbwandb/esiq2u12-wandb-metadata.json
+2024-02-19 20:34:49,589 INFO    Thread-12 :63409 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_203441-7b86skrb/files/output.log
+2024-02-19 20:34:51,590 INFO    Thread-12 :63409 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_203441-7b86skrb/files/output.log
+2024-02-19 20:34:52,258 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:34:52,591 INFO    Thread-12 :63409 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_203441-7b86skrb/files/output.log
+2024-02-19 20:34:57,259 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:35:01,925 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 20:35:01,926 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 20:35:01,926 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 20:35:02,661 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:35:07,662 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:35:12,677 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:35:13,602 INFO    Thread-12 :63409 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_203441-7b86skrb/files/config.yaml
+2024-02-19 20:35:16,925 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 20:35:16,925 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 20:35:16,965 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 20:35:18,208 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:35:23,209 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:35:28,210 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:35:31,927 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 20:35:31,933 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 20:35:31,940 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 20:35:33,238 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:35:38,239 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:35:41,711 DEBUG   SystemMonitor:63409 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-19 20:35:41,716 DEBUG   SenderThread:63409 [sender.py:send():382] send: stats
+2024-02-19 20:35:43,718 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:35:47,045 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 20:35:47,046 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 20:35:47,046 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 20:35:49,343 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:35:54,344 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:35:59,346 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:36:02,049 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 20:36:02,050 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 20:36:02,050 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 20:36:05,290 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:36:10,291 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:36:11,716 DEBUG   SenderThread:63409 [sender.py:send():382] send: stats
+2024-02-19 20:36:15,718 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:36:17,049 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 20:36:17,049 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 20:36:17,090 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 20:36:20,435 DEBUG   SenderThread:63409 [sender.py:send():382] send: exit
+2024-02-19 20:36:20,435 INFO    SenderThread:63409 [sender.py:send_exit():589] handling exit code: 1
+2024-02-19 20:36:20,435 INFO    SenderThread:63409 [sender.py:send_exit():591] handling runtime: 98
+2024-02-19 20:36:20,436 INFO    SenderThread:63409 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 20:36:20,436 INFO    SenderThread:63409 [sender.py:send_exit():597] send defer
+2024-02-19 20:36:20,436 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:36:20,436 INFO    HandlerThread:63409 [handler.py:handle_request_defer():172] handle defer: 0
+2024-02-19 20:36:20,437 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:36:20,437 INFO    SenderThread:63409 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-02-19 20:36:20,437 INFO    SenderThread:63409 [sender.py:transition_state():617] send defer: 1
+2024-02-19 20:36:20,437 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:36:20,437 INFO    HandlerThread:63409 [handler.py:handle_request_defer():172] handle defer: 1
+2024-02-19 20:36:20,437 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:36:20,437 INFO    SenderThread:63409 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-02-19 20:36:20,437 INFO    SenderThread:63409 [sender.py:transition_state():617] send defer: 2
+2024-02-19 20:36:20,437 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:36:20,437 INFO    HandlerThread:63409 [handler.py:handle_request_defer():172] handle defer: 2
+2024-02-19 20:36:20,437 INFO    HandlerThread:63409 [system_monitor.py:finish():203] Stopping system monitor
+2024-02-19 20:36:20,438 INFO    HandlerThread:63409 [interfaces.py:finish():202] Joined cpu monitor
+2024-02-19 20:36:20,438 INFO    HandlerThread:63409 [interfaces.py:finish():202] Joined disk monitor
+2024-02-19 20:36:20,439 DEBUG   SystemMonitor:63409 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-19 20:36:20,439 DEBUG   SystemMonitor:63409 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-19 20:36:20,688 INFO    Thread-12 :63409 [dir_watcher.py:_on_file_created():271] file/dir created: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_203441-7b86skrb/files/wandb-summary.json
+2024-02-19 20:36:20,704 INFO    HandlerThread:63409 [interfaces.py:finish():202] Joined gpu monitor
+2024-02-19 20:36:20,704 INFO    HandlerThread:63409 [interfaces.py:finish():202] Joined memory monitor
+2024-02-19 20:36:20,704 INFO    HandlerThread:63409 [interfaces.py:finish():202] Joined network monitor
+2024-02-19 20:36:20,707 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:36:20,707 INFO    SenderThread:63409 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-02-19 20:36:20,707 INFO    SenderThread:63409 [sender.py:transition_state():617] send defer: 3
+2024-02-19 20:36:20,707 DEBUG   SenderThread:63409 [sender.py:send():382] send: stats
+2024-02-19 20:36:20,709 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:36:20,709 INFO    HandlerThread:63409 [handler.py:handle_request_defer():172] handle defer: 3
+2024-02-19 20:36:20,709 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:36:20,709 INFO    SenderThread:63409 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-02-19 20:36:20,709 INFO    SenderThread:63409 [sender.py:transition_state():617] send defer: 4
+2024-02-19 20:36:20,709 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:36:20,709 INFO    HandlerThread:63409 [handler.py:handle_request_defer():172] handle defer: 4
+2024-02-19 20:36:20,710 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:36:20,710 INFO    SenderThread:63409 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-02-19 20:36:20,710 INFO    SenderThread:63409 [sender.py:transition_state():617] send defer: 5
+2024-02-19 20:36:20,710 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:36:20,710 INFO    HandlerThread:63409 [handler.py:handle_request_defer():172] handle defer: 5
+2024-02-19 20:36:20,710 DEBUG   SenderThread:63409 [sender.py:send():382] send: summary
+2024-02-19 20:36:20,720 INFO    SenderThread:63409 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 20:36:20,720 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:36:20,720 INFO    SenderThread:63409 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-02-19 20:36:20,721 INFO    SenderThread:63409 [sender.py:transition_state():617] send defer: 6
+2024-02-19 20:36:20,721 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:36:20,721 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:36:20,721 INFO    HandlerThread:63409 [handler.py:handle_request_defer():172] handle defer: 6
+2024-02-19 20:36:20,721 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:36:20,722 INFO    SenderThread:63409 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-02-19 20:36:20,722 INFO    SenderThread:63409 [sender.py:transition_state():617] send defer: 7
+2024-02-19 20:36:20,722 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:36:20,722 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:36:20,722 INFO    HandlerThread:63409 [handler.py:handle_request_defer():172] handle defer: 7
+2024-02-19 20:36:20,722 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:36:20,722 INFO    SenderThread:63409 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-02-19 20:36:21,436 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-19 20:36:21,684 INFO    Thread-12 :63409 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_203441-7b86skrb/files/wandb-summary.json
+2024-02-19 20:36:22,379 INFO    SenderThread:63409 [sender.py:transition_state():617] send defer: 8
+2024-02-19 20:36:22,379 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: poll_exit
+2024-02-19 20:36:22,387 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:36:22,387 INFO    HandlerThread:63409 [handler.py:handle_request_defer():172] handle defer: 8
+2024-02-19 20:36:22,387 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:36:22,387 INFO    SenderThread:63409 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-02-19 20:36:22,387 INFO    SenderThread:63409 [job_builder.py:build():296] Attempting to build job artifact
+2024-02-19 20:36:22,388 INFO    SenderThread:63409 [job_builder.py:_get_source_type():437] no source found
+2024-02-19 20:36:22,388 INFO    SenderThread:63409 [sender.py:transition_state():617] send defer: 9
+2024-02-19 20:36:22,388 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:36:22,388 INFO    HandlerThread:63409 [handler.py:handle_request_defer():172] handle defer: 9
+2024-02-19 20:36:22,388 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:36:22,388 INFO    SenderThread:63409 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-02-19 20:36:22,389 INFO    SenderThread:63409 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-02-19 20:36:22,436 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-19 20:36:22,684 INFO    Thread-12 :63409 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_203441-7b86skrb/files/output.log
+2024-02-19 20:36:22,686 INFO    SenderThread:63409 [dir_watcher.py:finish():388] scan: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_203441-7b86skrb/files
+2024-02-19 20:36:22,686 INFO    SenderThread:63409 [dir_watcher.py:finish():402] scan save: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_203441-7b86skrb/files/config.yaml config.yaml
+2024-02-19 20:36:22,686 INFO    SenderThread:63409 [dir_watcher.py:finish():402] scan save: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_203441-7b86skrb/files/conda-environment.yaml conda-environment.yaml
+2024-02-19 20:36:22,686 INFO    SenderThread:63409 [dir_watcher.py:finish():402] scan save: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_203441-7b86skrb/files/wandb-metadata.json wandb-metadata.json
+2024-02-19 20:36:22,686 INFO    SenderThread:63409 [dir_watcher.py:finish():402] scan save: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_203441-7b86skrb/files/requirements.txt requirements.txt
+2024-02-19 20:36:22,686 INFO    SenderThread:63409 [dir_watcher.py:finish():402] scan save: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_203441-7b86skrb/files/output.log output.log
+2024-02-19 20:36:22,687 INFO    SenderThread:63409 [dir_watcher.py:finish():402] scan save: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_203441-7b86skrb/files/wandb-summary.json wandb-summary.json
+2024-02-19 20:36:22,687 INFO    SenderThread:63409 [sender.py:transition_state():617] send defer: 10
+2024-02-19 20:36:22,687 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: poll_exit
+2024-02-19 20:36:22,689 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:36:22,689 INFO    HandlerThread:63409 [handler.py:handle_request_defer():172] handle defer: 10
+2024-02-19 20:36:22,705 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:36:22,711 INFO    SenderThread:63409 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-02-19 20:36:22,712 INFO    SenderThread:63409 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-19 20:36:23,144 INFO    wandb-upload_0:63409 [upload_job.py:push():131] Uploaded file /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_203441-7b86skrb/files/config.yaml
+2024-02-19 20:36:23,231 INFO    wandb-upload_1:63409 [upload_job.py:push():131] Uploaded file /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_203441-7b86skrb/files/conda-environment.yaml
+2024-02-19 20:36:23,315 INFO    wandb-upload_3:63409 [upload_job.py:push():131] Uploaded file /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_203441-7b86skrb/files/output.log
+2024-02-19 20:36:23,323 INFO    wandb-upload_4:63409 [upload_job.py:push():131] Uploaded file /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_203441-7b86skrb/files/wandb-summary.json
+2024-02-19 20:36:23,333 INFO    wandb-upload_2:63409 [upload_job.py:push():131] Uploaded file /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_203441-7b86skrb/files/requirements.txt
+2024-02-19 20:36:23,437 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-19 20:36:23,438 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: poll_exit
+2024-02-19 20:36:23,533 INFO    Thread-11 :63409 [sender.py:transition_state():617] send defer: 11
+2024-02-19 20:36:23,534 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:36:23,534 INFO    HandlerThread:63409 [handler.py:handle_request_defer():172] handle defer: 11
+2024-02-19 20:36:23,535 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:36:23,535 INFO    SenderThread:63409 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-02-19 20:36:23,535 INFO    SenderThread:63409 [file_pusher.py:join():178] waiting for file pusher
+2024-02-19 20:36:23,536 INFO    SenderThread:63409 [sender.py:transition_state():617] send defer: 12
+2024-02-19 20:36:23,536 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:36:23,536 INFO    HandlerThread:63409 [handler.py:handle_request_defer():172] handle defer: 12
+2024-02-19 20:36:23,536 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:36:23,536 INFO    SenderThread:63409 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-02-19 20:36:23,536 INFO    SenderThread:63409 [file_stream.py:finish():595] file stream finish called
+2024-02-19 20:36:23,752 INFO    SenderThread:63409 [file_stream.py:finish():599] file stream finish is done
+2024-02-19 20:36:23,752 INFO    SenderThread:63409 [sender.py:transition_state():617] send defer: 13
+2024-02-19 20:36:23,752 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:36:23,752 INFO    HandlerThread:63409 [handler.py:handle_request_defer():172] handle defer: 13
+2024-02-19 20:36:23,752 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:36:23,753 INFO    SenderThread:63409 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-02-19 20:36:23,753 INFO    SenderThread:63409 [sender.py:transition_state():617] send defer: 14
+2024-02-19 20:36:23,753 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 20:36:23,753 INFO    HandlerThread:63409 [handler.py:handle_request_defer():172] handle defer: 14
+2024-02-19 20:36:23,753 DEBUG   SenderThread:63409 [sender.py:send():382] send: final
+2024-02-19 20:36:23,753 DEBUG   SenderThread:63409 [sender.py:send():382] send: footer
+2024-02-19 20:36:23,754 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: defer
+2024-02-19 20:36:23,754 INFO    SenderThread:63409 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-02-19 20:36:23,754 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-19 20:36:23,755 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-19 20:36:23,755 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: poll_exit
+2024-02-19 20:36:23,755 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: server_info
+2024-02-19 20:36:23,756 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: poll_exit
+2024-02-19 20:36:23,756 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: get_summary
+2024-02-19 20:36:23,756 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: sampled_history
+2024-02-19 20:36:23,756 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 20:36:23,756 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: server_info
+2024-02-19 20:36:23,762 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: job_info
+2024-02-19 20:36:23,967 DEBUG   SenderThread:63409 [sender.py:send_request():409] send_request: job_info
+2024-02-19 20:36:23,968 INFO    MainThread:63409 [wandb_run.py:_footer_history_summary_info():3866] rendering history
+2024-02-19 20:36:23,968 INFO    MainThread:63409 [wandb_run.py:_footer_history_summary_info():3898] rendering summary
+2024-02-19 20:36:23,968 INFO    MainThread:63409 [wandb_run.py:_footer_sync_info():3825] logging synced files
+2024-02-19 20:36:23,969 DEBUG   HandlerThread:63409 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-19 20:36:23,969 INFO    HandlerThread:63409 [handler.py:finish():869] shutting down handler
+2024-02-19 20:36:24,763 INFO    WriterThread:63409 [datastore.py:close():296] close: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_203441-7b86skrb/run-7b86skrb.wandb
+2024-02-19 20:36:24,968 INFO    SenderThread:63409 [sender.py:finish():1572] shutting down sender
+2024-02-19 20:36:24,968 INFO    SenderThread:63409 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-19 20:36:24,968 INFO    SenderThread:63409 [file_pusher.py:join():178] waiting for file pusher

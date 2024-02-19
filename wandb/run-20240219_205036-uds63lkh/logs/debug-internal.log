@@ -1,0 +1,291 @@
+2024-02-19 20:50:36,020 INFO    StreamThr :71687 [internal.py:wandb_internal():86] W&B internal server running at pid: 71687, started at: 2024-02-19 20:50:36.019708
+2024-02-19 20:50:36,021 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status
+2024-02-19 20:50:36,025 INFO    WriterThread:71687 [datastore.py:open_for_write():87] open: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/run-uds63lkh.wandb
+2024-02-19 20:50:36,031 DEBUG   SenderThread:71687 [sender.py:send():382] send: header
+2024-02-19 20:50:36,031 DEBUG   SenderThread:71687 [sender.py:send():382] send: run
+2024-02-19 20:50:36,604 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: check_version
+2024-02-19 20:50:36,618 INFO    SenderThread:71687 [dir_watcher.py:__init__():211] watching files in: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files
+2024-02-19 20:50:36,618 INFO    SenderThread:71687 [sender.py:_start_run_threads():1136] run started: uds63lkh with start time 1708343436.019769
+2024-02-19 20:50:36,618 DEBUG   SenderThread:71687 [sender.py:send_request():409] send_request: check_version
+2024-02-19 20:50:36,688 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: run_start
+2024-02-19 20:50:36,706 DEBUG   HandlerThread:71687 [system_info.py:__init__():27] System info init
+2024-02-19 20:50:36,706 DEBUG   HandlerThread:71687 [system_info.py:__init__():42] System info init done
+2024-02-19 20:50:36,706 INFO    HandlerThread:71687 [system_monitor.py:start():194] Starting system monitor
+2024-02-19 20:50:36,706 INFO    SystemMonitor:71687 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-19 20:50:36,708 INFO    SystemMonitor:71687 [interfaces.py:start():190] Started cpu monitoring
+2024-02-19 20:50:36,709 INFO    HandlerThread:71687 [system_monitor.py:probe():214] Collecting system info
+2024-02-19 20:50:36,710 INFO    SystemMonitor:71687 [interfaces.py:start():190] Started disk monitoring
+2024-02-19 20:50:36,710 INFO    SystemMonitor:71687 [interfaces.py:start():190] Started gpu monitoring
+2024-02-19 20:50:36,721 INFO    SystemMonitor:71687 [interfaces.py:start():190] Started memory monitoring
+2024-02-19 20:50:36,722 INFO    SystemMonitor:71687 [interfaces.py:start():190] Started network monitoring
+2024-02-19 20:50:36,780 DEBUG   HandlerThread:71687 [system_info.py:probe():151] Probing system
+2024-02-19 20:50:36,793 DEBUG   HandlerThread:71687 [gitlib.py:_init_repo():56] git repository is invalid
+2024-02-19 20:50:36,794 DEBUG   HandlerThread:71687 [system_info.py:probe():199] Probing system done
+2024-02-19 20:50:36,794 DEBUG   HandlerThread:71687 [system_monitor.py:probe():223] {'os': 'Linux-4.18.0-348.23.1.el8_5.x86_64-x86_64-with-glibc2.17', 'python': '3.8.16', 'heartbeatAt': '2024-02-19T11:50:36.780682', 'startedAt': '2024-02-19T11:50:36.012930', 'docker': None, 'cuda': None, 'args': ('-c', 'configs/pa_po_kitti_trainval.yaml', '-l', 'logs', '-n', 'kitti_lidar_distributed'), 'state': 'running', 'program': 'train_distributed.py', 'codePathLocal': 'train_distributed.py', 'codePath': 'train_distributed.py', 'host': 'visionai-postech2', 'username': 'poscoict', 'executable': '/opt/conda/bin/python', 'cpu_count': 48, 'cpu_count_logical': 96, 'cpu_freq': {'current': 3463.4468229166687, 'min': 4000.0, 'max': 4000.0}, 'cpu_freq_per_core': [{'current': 3380.028, 'min': 4000.0, 'max': 4000.0}, {'current': 3572.349, 'min': 4000.0, 'max': 4000.0}, {'current': 3379.98, 'min': 4000.0, 'max': 4000.0}, {'current': 3572.188, 'min': 4000.0, 'max': 4000.0}, {'current': 3379.868, 'min': 4000.0, 'max': 4000.0}, {'current': 3572.049, 'min': 4000.0, 'max': 4000.0}, {'current': 3379.757, 'min': 4000.0, 'max': 4000.0}, {'current': 3571.911, 'min': 4000.0, 'max': 4000.0}, {'current': 3379.667, 'min': 4000.0, 'max': 4000.0}, {'current': 3571.782, 'min': 4000.0, 'max': 4000.0}, {'current': 3379.558, 'min': 4000.0, 'max': 4000.0}, {'current': 3571.643, 'min': 4000.0, 'max': 4000.0}, {'current': 3379.457, 'min': 4000.0, 'max': 4000.0}, {'current': 3571.488, 'min': 4000.0, 'max': 4000.0}, {'current': 3379.343, 'min': 4000.0, 'max': 4000.0}, {'current': 3380.931, 'min': 4000.0, 'max': 4000.0}, {'current': 3379.248, 'min': 4000.0, 'max': 4000.0}, {'current': 3570.748, 'min': 4000.0, 'max': 4000.0}, {'current': 3379.143, 'min': 4000.0, 'max': 4000.0}, {'current': 3571.057, 'min': 4000.0, 'max': 4000.0}, {'current': 3379.044, 'min': 4000.0, 'max': 4000.0}, {'current': 3570.911, 'min': 4000.0, 'max': 4000.0}, {'current': 3378.929, 'min': 4000.0, 'max': 4000.0}, {'current': 3570.765, 'min': 4000.0, 'max': 4000.0}, {'current': 3378.836, 'min': 4000.0, 'max': 4000.0}, {'current': 3570.623, 'min': 4000.0, 'max': 4000.0}, {'current': 3378.715, 'min': 4000.0, 'max': 4000.0}, {'current': 3570.466, 'min': 4000.0, 'max': 4000.0}, {'current': 3378.605, 'min': 4000.0, 'max': 4000.0}, {'current': 3570.317, 'min': 4000.0, 'max': 4000.0}, {'current': 3378.494, 'min': 4000.0, 'max': 4000.0}, {'current': 3464.016, 'min': 4000.0, 'max': 4000.0}, {'current': 3331.306, 'min': 4000.0, 'max': 4000.0}, {'current': 3550.688, 'min': 4000.0, 'max': 4000.0}, {'current': 3320.148, 'min': 4000.0, 'max': 4000.0}, {'current': 3551.027, 'min': 4000.0, 'max': 4000.0}, {'current': 3327.997, 'min': 4000.0, 'max': 4000.0}, {'current': 3551.318, 'min': 4000.0, 'max': 4000.0}, {'current': 3326.263, 'min': 4000.0, 'max': 4000.0}, {'current': 3551.662, 'min': 4000.0, 'max': 4000.0}, {'current': 3327.438, 'min': 4000.0, 'max': 4000.0}, {'current': 3552.009, 'min': 4000.0, 'max': 4000.0}, {'current': 3317.217, 'min': 4000.0, 'max': 4000.0}, {'current': 3552.361, 'min': 4000.0, 'max': 4000.0}, {'current': 3318.883, 'min': 4000.0, 'max': 4000.0}, {'current': 3552.718, 'min': 4000.0, 'max': 4000.0}, {'current': 3322.447, 'min': 4000.0, 'max': 4000.0}, {'current': 3553.082, 'min': 4000.0, 'max': 4000.0}, {'current': 3290.151, 'min': 4000.0, 'max': 4000.0}, {'current': 3535.316, 'min': 4000.0, 'max': 4000.0}, {'current': 3323.87, 'min': 4000.0, 'max': 4000.0}, {'current': 3553.838, 'min': 4000.0, 'max': 4000.0}, {'current': 3323.823, 'min': 4000.0, 'max': 4000.0}, {'current': 3554.316, 'min': 4000.0, 'max': 4000.0}, {'current': 3324.826, 'min': 4000.0, 'max': 4000.0}, {'current': 3554.703, 'min': 4000.0, 'max': 4000.0}, {'current': 3326.313, 'min': 4000.0, 'max': 4000.0}, {'current': 3555.17, 'min': 4000.0, 'max': 4000.0}, {'current': 3320.537, 'min': 4000.0, 'max': 4000.0}, {'current': 3526.703, 'min': 4000.0, 'max': 4000.0}, {'current': 3325.158, 'min': 4000.0, 'max': 4000.0}, {'current': 3556.01, 'min': 4000.0, 'max': 4000.0}, {'current': 3297.91, 'min': 4000.0, 'max': 4000.0}, {'current': 3537.127, 'min': 4000.0, 'max': 4000.0}, {'current': 3280.493, 'min': 4000.0, 'max': 4000.0}, {'current': 3556.845, 'min': 4000.0, 'max': 4000.0}, {'current': 3322.196, 'min': 4000.0, 'max': 4000.0}, {'current': 3557.294, 'min': 4000.0, 'max': 4000.0}, {'current': 3325.009, 'min': 4000.0, 'max': 4000.0}, {'current': 3526.722, 'min': 4000.0, 'max': 4000.0}, {'current': 3324.43, 'min': 4000.0, 'max': 4000.0}, {'current': 3558.247, 'min': 4000.0, 'max': 4000.0}, {'current': 3203.833, 'min': 4000.0, 'max': 4000.0}, {'current': 3558.714, 'min': 4000.0, 'max': 4000.0}, {'current': 3321.974, 'min': 4000.0, 'max': 4000.0}, {'current': 3559.183, 'min': 4000.0, 'max': 4000.0}, {'current': 3324.645, 'min': 4000.0, 'max': 4000.0}, {'current': 3559.638, 'min': 4000.0, 'max': 4000.0}, {'current': 3313.45, 'min': 4000.0, 'max': 4000.0}, {'current': 3560.235, 'min': 4000.0, 'max': 4000.0}, {'current': 3327.744, 'min': 4000.0, 'max': 4000.0}, {'current': 3560.701, 'min': 4000.0, 'max': 4000.0}, {'current': 3314.117, 'min': 4000.0, 'max': 4000.0}, {'current': 3561.196, 'min': 4000.0, 'max': 4000.0}, {'current': 3323.341, 'min': 4000.0, 'max': 4000.0}, {'current': 3561.684, 'min': 4000.0, 'max': 4000.0}, {'current': 3321.155, 'min': 4000.0, 'max': 4000.0}, {'current': 3562.174, 'min': 4000.0, 'max': 4000.0}, {'current': 3321.347, 'min': 4000.0, 'max': 4000.0}, {'current': 3562.682, 'min': 4000.0, 'max': 4000.0}, {'current': 3310.314, 'min': 4000.0, 'max': 4000.0}, {'current': 3563.299, 'min': 4000.0, 'max': 4000.0}, {'current': 3312.078, 'min': 4000.0, 'max': 4000.0}, {'current': 3563.822, 'min': 4000.0, 'max': 4000.0}, {'current': 3316.276, 'min': 4000.0, 'max': 4000.0}, {'current': 3564.347, 'min': 4000.0, 'max': 4000.0}], 'disk': {'/': {'total': 2699.5527381896973, 'used': 701.6023330688477}}, 'gpu': 'NVIDIA A100 80GB PCIe', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA A100 80GB PCIe', 'memory_total': 85899345920}, {'name': 'NVIDIA A100 80GB PCIe', 'memory_total': 85899345920}], 'memory': {'total': 1006.8523902893066}}
+2024-02-19 20:50:36,794 INFO    HandlerThread:71687 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-19 20:50:36,794 INFO    HandlerThread:71687 [system_monitor.py:probe():227] Publishing system info
+2024-02-19 20:50:36,794 DEBUG   HandlerThread:71687 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-02-19 20:50:37,594 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_created():271] file/dir created: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/conda-environment.yaml
+2024-02-19 20:50:41,594 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/conda-environment.yaml
+2024-02-19 20:50:41,815 DEBUG   HandlerThread:71687 [system_info.py:_save_conda():220] Saving conda packages done
+2024-02-19 20:50:41,817 INFO    HandlerThread:71687 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-19 20:50:41,823 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:50:41,823 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:50:41,825 DEBUG   SenderThread:71687 [sender.py:send():382] send: files
+2024-02-19 20:50:41,825 INFO    SenderThread:71687 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-02-19 20:50:41,833 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-19 20:50:41,834 DEBUG   SenderThread:71687 [sender.py:send_request():409] send_request: python_packages
+2024-02-19 20:50:41,835 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 20:50:41,836 DEBUG   SenderThread:71687 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 20:50:41,845 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 20:50:42,176 DEBUG   SenderThread:71687 [sender.py:send():382] send: telemetry
+2024-02-19 20:50:42,584 INFO    wandb-upload_0:71687 [upload_job.py:push():131] Uploaded file /tmp/tmpriqywyg5wandb/h1djhj0o-wandb-metadata.json
+2024-02-19 20:50:42,595 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_created():271] file/dir created: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/wandb-metadata.json
+2024-02-19 20:50:42,595 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_created():271] file/dir created: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:50:42,595 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_created():271] file/dir created: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/requirements.txt
+2024-02-19 20:50:44,596 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:50:46,597 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:50:47,252 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:50:47,598 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:50:52,263 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:50:56,837 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 20:50:56,837 DEBUG   SenderThread:71687 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 20:50:56,847 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 20:50:58,138 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:51:03,139 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:51:08,161 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:51:08,618 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/config.yaml
+2024-02-19 20:51:11,871 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 20:51:11,871 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 20:51:11,871 DEBUG   SenderThread:71687 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 20:51:14,132 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:51:19,133 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:51:24,136 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:51:26,870 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 20:51:26,871 DEBUG   SenderThread:71687 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 20:51:26,911 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 20:51:29,159 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:51:34,161 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:51:36,722 DEBUG   SystemMonitor:71687 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-19 20:51:36,725 DEBUG   SenderThread:71687 [sender.py:send():382] send: stats
+2024-02-19 20:51:39,733 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:51:42,691 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 20:51:42,691 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 20:51:42,692 DEBUG   SenderThread:71687 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 20:51:44,992 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:51:49,993 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:51:55,001 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:51:59,942 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 20:51:59,943 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 20:51:59,943 DEBUG   SenderThread:71687 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 20:52:02,277 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:52:06,728 DEBUG   SenderThread:71687 [sender.py:send():382] send: stats
+2024-02-19 20:52:07,730 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:52:11,792 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:52:12,730 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:52:17,732 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:52:20,467 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 20:52:20,467 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 20:52:20,468 DEBUG   SenderThread:71687 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 20:52:22,741 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:52:27,743 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:52:32,744 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:52:36,425 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:52:36,467 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:52:36,467 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:52:36,730 DEBUG   SenderThread:71687 [sender.py:send():382] send: stats
+2024-02-19 20:52:38,731 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:52:43,735 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:52:48,736 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:52:53,737 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:52:58,738 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:52:59,635 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:53:03,739 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:53:06,732 DEBUG   SenderThread:71687 [sender.py:send():382] send: stats
+2024-02-19 20:53:09,733 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:53:14,742 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:53:19,745 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:53:24,746 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:53:29,746 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:53:34,748 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:53:36,734 DEBUG   SenderThread:71687 [sender.py:send():382] send: stats
+2024-02-19 20:53:40,736 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:53:44,362 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:53:45,737 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:53:50,738 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:53:52,097 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:53:55,739 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:53:59,593 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:53:59,594 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:54:00,740 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:54:05,741 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:54:06,736 DEBUG   SenderThread:71687 [sender.py:send():382] send: stats
+2024-02-19 20:54:07,888 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:54:11,739 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:54:13,703 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:54:13,804 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:54:16,760 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:54:17,704 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:54:18,805 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:54:21,761 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:54:23,707 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:54:23,807 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:54:26,781 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:54:28,808 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:54:29,709 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:54:32,636 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:54:33,711 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:54:33,811 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:54:36,739 DEBUG   SenderThread:71687 [sender.py:send():382] send: stats
+2024-02-19 20:54:37,712 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:54:37,740 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:54:38,813 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:54:41,714 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:54:42,907 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:54:43,814 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:54:45,716 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:54:48,255 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:54:48,816 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:54:49,718 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:54:53,821 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:54:54,180 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:54:55,720 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:54:59,081 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:54:59,181 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:55:04,082 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:55:04,360 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:55:05,723 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:55:06,742 DEBUG   SenderThread:71687 [sender.py:send():382] send: stats
+2024-02-19 20:55:09,083 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:55:09,725 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:55:09,955 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:55:14,096 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:55:15,119 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:55:15,728 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:55:19,097 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:55:19,730 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:55:20,734 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:55:23,732 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:55:24,137 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:55:25,874 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:55:27,734 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:55:29,141 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:55:31,179 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:55:31,736 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:55:34,147 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:55:35,739 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:55:36,584 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:55:36,744 DEBUG   SenderThread:71687 [sender.py:send():382] send: stats
+2024-02-19 20:55:39,156 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:55:39,740 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:55:41,902 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:55:43,742 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:55:44,161 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:55:47,880 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:55:49,170 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:55:51,750 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:55:53,104 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:55:54,171 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:55:57,762 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:55:58,250 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:55:59,172 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:56:03,611 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:56:03,756 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:56:04,173 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:56:06,746 DEBUG   SenderThread:71687 [sender.py:send():382] send: stats
+2024-02-19 20:56:07,758 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:56:08,864 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:56:09,182 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:56:11,759 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:56:14,193 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:56:14,196 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:56:17,763 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:56:19,198 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:56:19,622 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:56:21,764 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:56:24,214 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:56:25,001 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:56:25,766 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:56:29,215 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:56:29,854 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:56:30,118 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:56:33,858 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:56:34,216 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:56:35,418 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:56:36,748 DEBUG   SenderThread:71687 [sender.py:send():382] send: stats
+2024-02-19 20:56:39,217 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:56:40,750 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:56:41,861 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:56:44,218 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:56:45,863 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:56:46,214 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:56:49,396 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:56:51,215 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:56:53,866 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:56:54,397 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:56:56,249 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:56:57,868 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:56:59,398 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:57:01,871 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:57:02,203 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:57:04,400 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:57:05,893 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:57:06,750 DEBUG   SenderThread:71687 [sender.py:send():382] send: stats
+2024-02-19 20:57:07,751 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:57:09,429 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:57:09,895 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:57:13,149 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:57:13,897 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:57:14,434 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:57:17,899 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:57:18,259 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:57:19,436 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:57:21,901 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:57:23,742 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:57:24,449 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:57:29,252 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:57:29,510 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:57:29,906 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:57:33,908 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:57:34,471 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:57:34,594 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:57:36,752 DEBUG   SenderThread:71687 [sender.py:send():382] send: stats
+2024-02-19 20:57:39,686 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:57:39,910 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:57:40,117 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:57:44,687 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:57:45,766 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:57:45,913 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:57:49,688 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:57:49,914 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:57:51,207 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:57:53,916 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:57:54,689 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:57:55,916 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:57:56,448 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:57:59,717 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:57:59,918 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:58:02,251 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:58:04,732 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:58:05,921 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:58:06,754 DEBUG   SenderThread:71687 [sender.py:send():382] send: stats
+2024-02-19 20:58:07,765 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:58:09,733 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:58:09,924 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:58:13,525 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:58:14,734 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-19 20:58:17,928 INFO    Thread-12 :71687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/poscoict/Desktop/lcps_lidar/wandb/run-20240219_205036-uds63lkh/files/output.log
+2024-02-19 20:58:19,408 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:58:24,409 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:58:29,410 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:58:34,411 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:58:36,757 DEBUG   SenderThread:71687 [sender.py:send():382] send: stats
+2024-02-19 20:58:39,759 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:58:44,760 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:58:49,761 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:58:54,762 DEBUG   HandlerThread:71687 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 20:58:54,880 INFO    memory    :71687 [interfaces.py:monitor():140] Process proc.memory.rssMB has exited.
+2024-02-19 20:58:54,880 DEBUG   SystemMonitor:71687 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-19 20:58:54,881 DEBUG   SystemMonitor:71687 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-19 20:58:54,884 DEBUG   SenderThread:71687 [sender.py:send():382] send: stats
+2024-02-19 20:58:56,926 INFO    MainThread:71687 [internal.py:handle_exit():76] Internal process exited

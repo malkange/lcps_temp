@@ -1,0 +1,20 @@
+
+[480 360  32]
+Using MSE for heatmap regression, weight: 100
+Using L1 for offset regression, weight: 10
+[PANOPTIC EVAL] IGNORE:  [ 0 20]
+[PANOPTIC EVAL] INCLUDE:  [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19]
+Epoch 0 => Start Training...
+epoch: 0   lr: 0.00400
+  0%|                                                                                       | 0/598 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "train_distributed.py", line 611, in <module>
+    main()
+  File "train_distributed.py", line 551, in main
+    loss = loss_fn(sem_prediction, center, offset,instmap, train_dict['voxel_label'], train_dict['gt_center'],
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/poscoict/Desktop/lcps_lidar/network/util/loss.py", line 73, in forward
+    loss = lovasz_softmax(torch.nn.functional.softmax(prediction), gt_label,ignore=255) + self.CE_loss(prediction,gt_label)
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/functional.py", line 1843, in softmax
+    ret = input.softmax(dim)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 6.59 GiB (GPU 0; 79.17 GiB total capacity; 72.85 GiB already allocated; 2.54 GiB free; 76.06 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
